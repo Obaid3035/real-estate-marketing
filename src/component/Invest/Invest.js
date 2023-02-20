@@ -14,7 +14,6 @@ const Invest = () => {
 			<Row className={'justify-content-center m-0'}>
 				<div>
 					<h1>Why invest in Dubai</h1><br/>
-					{/*<div className={styles.Line}/>*/}
 				</div>
 			</Row>
 

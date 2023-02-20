@@ -17,12 +17,6 @@
     font-weight: 600;
 }
 
-.Line  {
-    border: 2px solid #224265;
-    height: 0;
-    width: 100%;
-}
-
 .List {
     padding: 20px 0;
 }

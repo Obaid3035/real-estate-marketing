@@ -7,7 +7,6 @@ const Developer = () => {
 		<Container className={styles.Developer}>
 			<Row className={'justify-content-center'}>
 				<h1>About the developer</h1>
-				{/*<div className={styles.Line}/>*/}
 				<p className={'mt-4'}>DAMAC Properties is a luxury real estate developer based in Dubai, United Arab Emirates.
 					DAMAC has a track record of developing high-end luxury residential and commercial properties. </p>
 

@@ -69,7 +69,7 @@ const FAQ = () => {
 					<Accordion defaultActiveKey="0">
 						{
 							faq.map((item) => (
-								<React.Fragment>
+								<React.Fragment key={item.id} >
 									<Accordion.Item key={item.id} eventKey={item.id.toString()}>
 										<Accordion.Header className={styles.FAQHeading}>{item.question}</Accordion.Header>
 										<Accordion.Body>
