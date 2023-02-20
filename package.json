@@ -10,10 +10,22 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "bootstrap": "^4.6.2",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "google-spreadsheet": "^3.3.0",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "18.2.0",
+    "react-floating-whatsapp": "^5.0.8",
+    "react-icons": "^4.7.1",
+    "react-player": "^2.11.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-modal": "^6.4.1",
+    "react-toastify": "^9.1.1",
+    "react-youtube": "^10.1.0",
+    "util": "^0.12.5",
+    "xlsx": "^0.18.5"
   }
 }

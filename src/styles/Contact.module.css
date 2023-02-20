@@ -1,0 +1,35 @@
+.Info {
+    margin-top: 33px;
+}
+
+.InfoImage {
+    background-image: url('/Invest.jpeg');
+    height: 58vh;
+    width: 100%;
+    padding: 0 50px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 25px;
+}
+
+.Info p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Info p svg {
+    font-size: 25px;
+    fill: #23d366;
+}
+
+.Info p span {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .InfoImage {
+        display: none;
+    }
+}
