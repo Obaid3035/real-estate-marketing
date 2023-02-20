@@ -1,0 +1,39 @@
+.SignUpForm .modal-body {
+    padding: 50px;
+}
+
+.SignUpForm .modal-header {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.SignUpFormHeader {
+    font-weight: 600;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SignUpFormHeader svg {
+    cursor: pointer;
+}
+
+.SignUpForm form label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.SignUpForm form input {
+    background-color: #ededed;
+    border: none;
+    border-radius: 0;
+    height: 53px;
+}
+
+.SignUpForm button {
+    border: none;
+    background: #224265;
+    padding: 10px 14px;
+    color: white;
+}

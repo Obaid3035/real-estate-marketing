@@ -1,0 +1,26 @@
+.Developer {
+    padding: 100px 120px;
+    text-align: center;
+}
+
+.Developer h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Developer p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Line  {
+    border: 2px solid #224265;
+    height: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .Developer {
+        padding: 75px 40px;
+    }
+}

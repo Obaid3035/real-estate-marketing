@@ -1,0 +1,20 @@
+.Reasons {
+    margin-top: 40px;
+    padding: 5px 30px;
+    display: flex;
+    border: none;
+    align-items: center;
+    /*box-shadow: 0 4px 18px -3px rgba(0,0,0,0.75);*/
+    /*-webkit-box-shadow: 0 4px 18px -3px rgba(0,0,0,0.75);*/
+    /*-moz-box-shadow: 0 4px 18px -3px rgba(0,0,0,0.75);*/
+}
+
+.Reasons svg {
+    font-size: 35px;
+    fill: #224265;
+}
+
+.Reasons p {
+    font-weight: bold;
+    font-size: 20px;
+}

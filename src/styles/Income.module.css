@@ -1,0 +1,52 @@
+.Income {
+    padding: 80px 0;
+}
+
+.IncomeImage {
+    background-image: url('/Income.jpeg');
+    height: 58vh;
+    width: 100%;
+    padding: 0 50px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 25px;
+}
+
+.Income h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Line  {
+    border: 2px solid #224265;
+    height: 0;
+    width: 100%;
+}
+
+.List {
+    padding: 20px 0;
+}
+
+.List div {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.List div p {
+    margin: 0 0 0 23px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.List div svg {
+    font-size: 25px;
+    fill: #224265;
+}
+
+
+@media only screen and (max-width: 768px){
+    .IncomeImage {
+        display: none;
+    }
+}
