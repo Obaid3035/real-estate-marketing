@@ -1,5 +1,5 @@
 import TopBanner from "@/component/TopBanner/TopBanner";
-import React, {useEffect} from "react";
+import React from "react";
 import Opportunity from "@/component/Opportunity/Opportunity";
 import Projects from "@/component/Projects/Projects";
 import Income from "@/component/Income/Income";
@@ -7,7 +7,7 @@ import Invest from "@/component/Invest/Invest";
 import Developer from "@/component/Developer/Developer";
 import FAQ from "@/component/FAQ/FAQ";
 import Testimonials from "@/component/Testimonials/Testimonials";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import {FloatingWhatsApp} from 'react-floating-whatsapp'
 import Contact from "@/component/Contact/Contact";
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
