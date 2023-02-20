@@ -1,13 +1,13 @@
-import React, {useState, memo} from 'react';
+import React, {memo} from 'react';
 import styles from '../../styles/Projects.module.css';
-import ProjectVideo from "@/component/Projects/ProjectVideo";
+import { Image } from "react-bootstrap";
 
 const Project = ({ title, description, src, onModalOpen }) => {
 	return (
 		<div className={styles.Project} onClick={onModalOpen}>
 			<h4>{ title }</h4>
 			<p>{ description }</p>
-			<img alt={'costa-brava'} src={src}/>
+			<Image alt={'costa-brava'} src={src}/>
 		</div>
 	);
 };
