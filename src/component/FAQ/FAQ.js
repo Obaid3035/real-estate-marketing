@@ -1,5 +1,5 @@
 import React from 'react';
-import {Accordion, Card, Col, Container, Row} from "react-bootstrap";
+import {Accordion, Col, Container, Row} from "react-bootstrap";
 import styles from '../../styles/FAQ.module.css';
 
 const FAQ = () => {
@@ -69,11 +69,12 @@ const FAQ = () => {
 					<Accordion defaultActiveKey="0">
 						{
 							faq.map((item) => (
-								<React.Fragment key={item.id} >
+								<React.Fragment key={item.id}>
 									<Accordion.Item key={item.id} eventKey={item.id.toString()}>
-										<Accordion.Header className={styles.FAQHeading}>{item.question}</Accordion.Header>
+										<Accordion.Header
+											className={styles.FAQHeading}>{item.question}</Accordion.Header>
 										<Accordion.Body>
-											{ item.answer }
+											{item.answer}
 										</Accordion.Body>
 									</Accordion.Item>
 									<hr/>
