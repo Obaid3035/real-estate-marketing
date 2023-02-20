@@ -6,7 +6,7 @@ const Testimonial = ({name, review}) => {
 	return (
 		<div className={styles.Testimonial}>
 			<div className={'text-center mt-3'}>
-				<Image alt={'client'} src={'/avatar.png'}/>
+				<Image width={80}  height={80} alt={'client'} src={'/avatar.png'}/>
 			</div>
 			<p className={'mt-4'}>{review}</p>
 			<h4 className={'mt-3'}>{name}</h4>
