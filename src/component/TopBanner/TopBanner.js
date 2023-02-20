@@ -46,6 +46,8 @@ const TopBanner = () => {
 				showIndicators={true}
 				showThumbs={false}
 				infiniteLoop={true}
+				emulateTouch={false}
+				preventMovementUntilSwipeScrollTolerance={true}
 
 			>
 				{
