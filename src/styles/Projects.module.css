@@ -9,15 +9,16 @@
 }
 
 .Project p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .Project img {
-    height: 300px;
-    width: 350px;
+    height: 270px;
+    width: 320px;
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    box-shadow: -4px 7px 19px -8px rgba(0,0,0,0.75);
 }
 
 .Project img:hover {
@@ -28,4 +29,22 @@
 .ComingSoon {
     text-align: center;
     font-size: 18px;
+
+}
+
+.ComingSoon button {
+    padding: 15px 46px;
+    background-color: #224265;
+    border: none;
+    font-size: 15px;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px)   {
+    .Project h4 {
+        text-align: center
+    }
 }

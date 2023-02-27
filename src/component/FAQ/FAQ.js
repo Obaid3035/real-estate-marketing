@@ -1,6 +1,7 @@
 import React from 'react';
 import {Accordion, Col, Container, Row} from "react-bootstrap";
 import styles from '../../styles/FAQ.module.css';
+import { IoIosArrowDropdownCircle } from "react-icons/io";
 
 const FAQ = () => {
 
@@ -22,12 +23,12 @@ const FAQ = () => {
 		{
 			id: 3,
 			question: 'Is DAMAC Lagoons a good investment?',
-			answer: 'Surrounded by unspoiled coves, cerulean lagoons, white-sandy beaches and lush green pastures, DAMAC Lagoons is a perfect investment whether as a private residence or with the purpose of generating a passive income. In particular, families with children will enjoy residing here thanks to the lagoon-facing lawns, family cabanas, infinity pools and much more. The projected ROI is set at 6%.'
+			answer: 'Surrounded by unspoiled coves, cerulean lagoons, white-sandy beaches and lush green pastures, DAMAC Lagoons is a perfect investment whether as a private residence or with the purpose of generating a passive income. In particular, families with children will enjoy residing here thanks to the lagoon-facing lawns, family cabanas, infinity pools and much more. The projected ROI is set at 8%.'
 		},
 		{
 			id: 4,
 			question: 'How much does a property in DAMAC Lagoons cost?',
-			answer: 'The starting price for a property in DAMAC Lagoons amounts to AED 1.8M (USD 490K), as of Q2 2022.\n'
+			answer: 'The starting price for a property in DAMAC Lagoons amounts to CAD $700,000'
 		},
 		{
 			id: 5,
@@ -57,7 +58,7 @@ const FAQ = () => {
 		{
 			id: 10,
 			question: 'Where can I book DAMAC Lagoons properties?',
-			answer: 'You can find available options of DAMAC Lagoons homes and the latest promotions on this website. Our agents at Metropolitan Premium Properties will gladly provide you with more detailed information regarding your chosen property and can assist you with buying a villa/townhouse here without any hassle.\n'
+			answer: 'Sign Up now and we will gladly provide you with more detailed information regarding your chosen property and can assist you with buying a villa/townhouse here without any hassle.'
 		}
 	]
 
@@ -72,8 +73,10 @@ const FAQ = () => {
 								<React.Fragment key={item.id}>
 									<Accordion.Item key={item.id} eventKey={item.id.toString()}>
 										<Accordion.Header
-											className={styles.FAQHeading}>{item.question}</Accordion.Header>
-										<Accordion.Body>
+											className={styles.FAQHeading}><h5>{item.question}</h5>
+											<IoIosArrowDropdownCircle/>
+										</Accordion.Header>
+										<Accordion.Body className={'text-justify'}>
 											{item.answer}
 										</Accordion.Body>
 									</Accordion.Item>

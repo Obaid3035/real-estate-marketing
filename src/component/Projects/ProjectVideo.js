@@ -2,6 +2,7 @@ import React from 'react';
 import ReactPlayer from "react-player";
 import YouTube from "react-youtube";
 import {Modal} from "react-bootstrap";
+import styles  from '../../styles/ProjectVideo.module.css';
 
 const ProjectVideo = ({show, onClose, video}) => {
 
@@ -17,7 +18,7 @@ const ProjectVideo = ({show, onClose, video}) => {
 			onHide={onClose}
 			show={show}
 		>
-			<iframe width="560" height="315" src={ videoHandler()  }
+			<iframe className={styles.Video} width="560" height="315" src={ videoHandler()  }
 			        title="YouTube video player" frameBorder="0"
 			        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 			        allowFullScreen/>

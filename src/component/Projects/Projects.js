@@ -3,6 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import styles from '../../styles/Projects.module.css';
 import Project from "@/component/Projects/Project";
 import ProjectVideo from "@/component/Projects/ProjectVideo";
+import SignUpForm from "@/component/SignUpForm/SignUpForm";
 
 const Projects = () => {
 	const projects = [
@@ -24,13 +25,15 @@ const Projects = () => {
 			description: 'Elite Townhouses and villas in the working hub of the community, full of unforgettable Ligurian vibes',
 			src: '/portfolio.jpeg'
 		}
-	]
+	];
 
-	const [show, setShow] = useState(false)
-	const [video, setVideo] = useState(1)
+	const [show, setShow] = useState(false);
+	const [video, setVideo] = useState(1);
+	const [formModal, setFormModal] = useState(false);
 
 	return (
 		<Container className={styles.Projects}>
+			<SignUpForm show={formModal} close={() => setFormModal(false)}/>
 			<div className={'text-center mb-4'}>
 				<h1>Projects</h1>
 			</div>
@@ -48,7 +51,8 @@ const Projects = () => {
 				}
 			</Row>
 			<div className={styles.ComingSoon}>
-				<p className={'mb-0 mt-4'}>Coming Soon</p>
+				<p className={'mb-0 mt-4'}>And more!</p>
+				<button className={'mt-3'} onClick={() => setFormModal(true)}>Enquire</button>
 			</div>
 		</Container>
 	);
