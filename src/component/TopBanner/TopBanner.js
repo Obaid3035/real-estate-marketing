@@ -17,15 +17,13 @@ const TopBanner = () => {
 		},
 		{
 			id: 2,
-			content: 'Dubai is a Tax-free Destination with Guaranteed High',
-			content2: 'Political Stability',
-			content3: 'Easy Golden Residential Visa',
+			content: 'Dubai is a Tax-free Destination with Guaranteed High Rental Yield and provides 10 year Golden Visa',
 			src: './video_2.mp4',
-			more: true,
+			more: false,
 		},
 		{
 			id: 3,
-			content: 'Top Safest Tourist Destination',
+			content: 'Dubai is the Top Safest Tourist Destination',
 			src: './video_3.mp4',
 			more: false
 		},

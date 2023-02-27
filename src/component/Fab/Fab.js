@@ -1,4 +1,4 @@
-import {TbMessage} from "react-icons/tb";
+import {BsSignpostSplit} from "react-icons/bs";
 import styles from '../../styles/Fab.module.css'
 import SignUpForm from "@/component/SignUpForm/SignUpForm";
 import {useState} from "react";
@@ -13,7 +13,7 @@ const FAB = () => {
 		>
 			<SignUpForm show={show} close={() => setShow(false)}/>
 			<li className={styles.fabButton}>
-				<span onClick={() => setShow(true)}><TbMessage/></span>
+				<span onClick={() => setShow(true)}><BsSignpostSplit/></span>
 
 			</li>
 		</ul>
