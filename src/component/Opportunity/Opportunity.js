@@ -7,10 +7,10 @@ const Opportunity = () => {
 		<Container className={styles.Opportunity}>
 			<Row className={'justify-content-center'}>
 				<h1>Investment Opportunities</h1>
-				<p className={'mt-4'}>Surrounded by unspoiled coves, cerulean lagoons, white-sandy beaches and lush green pastures,
-					DAMAC Lagoons is a perfect investment whether as a private residence or with the purpose of generating a passive income.
+				<p className={'mt-4'}>Surrounded by unspoiled <span>coves</span>, cerulean <span>lagoons</span>, white-sandy <span>beaches</span> and lush green <span>pastures</span>,
+					DAMAC Lagoons is a <span>perfect investment</span> whether as a private residence or with the purpose of generating a <span>passive income</span>.
 					In particular, families with children will enjoy residing here thanks to the lagoon-facing lawns, family cabanas,
-					infinity pools and much more. The projected ROI is set at 8%.</p>
+					infinity pools and much more. The projected <span>ROI is set at 8%</span>.</p>
 			</Row>
 		</Container>
 	);

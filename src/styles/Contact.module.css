@@ -3,13 +3,14 @@
 }
 
 .InfoImage {
-    background-image: url('/Invest.jpeg');
-    height: 58vh;
+    background-image: url('/burj.jpeg');
+    height: 60vh;
     width: 100%;
     padding: 0 50px;
     background-size: cover;
     background-position: center;
     margin-right: 25px;
+    box-shadow: -4px 7px 19px -8px rgba(0,0,0,0.75);
 }
 
 .Info p {

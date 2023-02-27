@@ -1,0 +1,42 @@
+.fabContainer {
+    display: flex;
+    z-index: 99;
+    flex-direction: column-reverse;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 36px;
+    bottom: 7em;
+    max-height: 52px;
+
+}
+
+.fabContainer .open {
+    max-height: max-content;
+}
+
+.fabContainer li {
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 3px 6px #1a264e;
+    display: grid;
+    place-items: center;
+    margin: 8px 0;
+    font-size: 28px;
+    padding: 12px;
+    cursor: pointer;
+    position: relative;
+}
+
+.fabButton span {
+    color: #1a264e;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.fabButton span svg {
+    font-size: 22px;
+    margin-bottom: 12px;
+}

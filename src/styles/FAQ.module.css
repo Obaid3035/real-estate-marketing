@@ -3,6 +3,16 @@
 }
 
 
+
 .FAQHeading button {
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.FAQHeading button svg {
+    font-size: 25px;
+
 }

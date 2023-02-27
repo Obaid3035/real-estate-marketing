@@ -14,6 +14,10 @@
     font-weight: 500;
 }
 
+.Opportunity p span {
+    font-weight: bold;
+}
+
 
 @media only screen and (max-width: 800px) {
     .Opportunity {

@@ -3,7 +3,6 @@ import styles from '../../styles/TopBanner.module.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import SignUpForm from "@/component/SignUpForm/SignUpForm";
-import {ToastContainer} from "react-toastify";
 
 const TopBanner = () => {
 
@@ -12,22 +11,22 @@ const TopBanner = () => {
 	const videoProperties = [
 		{
 			id: 1,
-			content: 'Discover the World\'s Most Lucrative Investment Market with Dubai Real Estate Properties',
-			src: './burj.mp4',
+			content: 'Discover the World\'s Most Lucrative and Investor-friendly Investment Market with Dubai Real Estate Properties',
+			src: './video_1.mp4',
 			more: false
 		},
 		{
 			id: 2,
-			content: 'A Tax-free Investor-friendly Destination',
+			content: 'Dubai is a Tax-free Destination with Guaranteed High',
 			content2: 'Political Stability',
 			content3: 'Easy Golden Residential Visa',
-			src: './dubai_2.mp4',
+			src: './video_2.mp4',
 			more: true,
 		},
 		{
 			id: 3,
-			content: 'Guaranteed High Rental Yield',
-			src: './lagoon.mp4',
+			content: 'Top Safest Tourist Destination',
+			src: './video_3.mp4',
 			more: false
 		},
 	]
@@ -62,12 +61,12 @@ const TopBanner = () => {
 									muted
 								/>
 								<div className={styles.Content}>
-									<h1>{ videoObj.more ? '- ' : null }{ videoObj.content }</h1>
+									<h1>{ videoObj.content }</h1>
 									{
 										videoObj.more ? (
 											<React.Fragment>
-												<h1>- { videoObj.content2 }</h1>
-												<h1>- { videoObj.content3 }</h1>
+												<h1>{ videoObj.content2 }</h1>
+												<h1>{ videoObj.content3 }</h1>
 											</React.Fragment>
 										) : null
 									}

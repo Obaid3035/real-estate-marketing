@@ -22,7 +22,7 @@ const Invest = () => {
 					<Reasons text={'Tax Free Investment:'} icon={<MdOutlineAttachMoney/>}/>
 				</Col>
 				<Col md={5} className={'mx-3'}>
-					<Reasons text={'Easy Golden Residential'} icon={<AiOutlineHome/>}/>
+					<Reasons text={'Easy 10 year Golden Visa'} icon={<AiOutlineHome/>}/>
 				</Col>
 				<Col md={5} className={'mx-3'}>
 					<Reasons text={'High Standard of Living'} icon={<GiUpgrade/>}/>
@@ -31,7 +31,7 @@ const Invest = () => {
 					<Reasons text={'Tropical Weather'} icon={<TiWeatherSunny/>}/>
 				</Col>
 				<Col md={5} className={'mx-3'}>
-					<Reasons text={'Top Safest Country in the World'} icon={<AiOutlineSafetyCertificate/>}/>
+					<Reasons text={'Top Safest Tourist Destination '} icon={<AiOutlineSafetyCertificate/>}/>
 				</Col>
 				<Col md={5} className={'mx-3'}>
 					<Reasons text={'Word-class Infrastructure'} icon={<BsBuilding/>}/>
