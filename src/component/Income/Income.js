@@ -16,7 +16,7 @@ const Income = () => {
 						<p><span>Expected Rental Income:</span> 8%</p>
 						<p><span>Completion Date:</span> June 2026</p>
 						<p><span>Crypto Finance:</span> Available</p>
-						<p><span>Cryptocurrency Payment:</span> Accepted</p>
+						<p><span>Crypto Payment:</span> Accepted</p>
 						<p><span>Choose From:</span> 3BR, 4BR and 5BR</p>
 					</div>
 				</Col>
