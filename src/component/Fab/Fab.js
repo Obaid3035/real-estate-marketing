@@ -1,4 +1,4 @@
-import {FaQuoteLeft} from "react-icons/fa";
+import {AiFillPhone} from "react-icons/ai";
 import styles from '../../styles/Fab.module.css'
 import SignUpForm from "@/component/SignUpForm/SignUpForm";
 import {useState} from "react";
@@ -13,7 +13,7 @@ const FAB = () => {
 		>
 			<SignUpForm show={show} close={() => setShow(false)}/>
 			<li className={styles.fabButton}>
-				<span onClick={() => setShow(true)}><FaQuoteLeft/></span>
+				<span onClick={() => setShow(true)}><AiFillPhone/></span>
 
 			</li>
 		</ul>
