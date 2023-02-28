@@ -16,7 +16,7 @@ const Income = () => {
 					<div className={contactStyles.Info}>
 						<p><IoLogoWhatsapp/> Number: <span>+1-437-655-0227</span></p>
 						<p className={'my-3'}>Phone Number: <span>+1-437-655-0227</span></p>
-						<p>Canada: <span>22-Brimley Road, Scarborough, ON. Canada. M1J 1A4 </span></p>
+						<p>Canada: <span>22-491-Brimley Road, Scarborough, ON. Canada. M1J 1A4 </span></p>
 						<p>United Arab Emirates: <span>Office 3018, building 3 Emaar Gold and Diamond Park - Sheikh Zayed Rd - Dubai - United Arab Emirates</span></p>
 					</div>
 				</Col>
