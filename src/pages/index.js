@@ -18,19 +18,35 @@ export default function Home() {
 
 	const [show, setShow] = React.useState(false);
 
+	const [timer, setTimer] = React.useState(0)
+
+
 	useEffect(() => {
 		if (localStorage.getItem('Form') !== 'yes') {
 			setShow(true)
+			setTimer(7)
 		}
 	}, [])
 
 
 	useEffect(() => {
-		if (localStorage.getItem('Form') !== 'yes' ) {
-			const timeId = setTimeout(()=> setShow(true),7000);
+		if (localStorage.getItem('Form') !== 'yes' && timer === 7) {
 
+			const timeId = setTimeout(() => setShow(true),5000);
 			return () => {
 				clearTimeout(timeId)
+				setTimer(15)
+			}
+		}
+	}, [show])
+
+	useEffect(() => {
+		if (localStorage.getItem('Form') !== 'yes' && timer === 15) {
+			console.log('BING2')
+			const timeId = setTimeout(() => setShow(true),10000);
+			return () => {
+				clearTimeout(timeId)
+				setTimer(0)
 			}
 		}
 	}, [show])
