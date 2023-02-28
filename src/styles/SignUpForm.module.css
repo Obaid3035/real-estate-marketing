@@ -1,5 +1,5 @@
 .SignUpForm .modal-body {
-    padding: 50px;
+    padding: 60px;
 }
 
 .SignUpForm .modal-header {
@@ -9,7 +9,7 @@
 
 .SignUpFormHeader {
     font-weight: 600;
-    font-size: 19px;
+    font-size: 15px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,8 @@
 
 .SignUpForm button {
     border: none;
-    background: #224265;
-    padding: 10px 14px;
+    background: #10866D;
     color: white;
+    border-radius: 35px;
+    padding: 14px 48px;
 }

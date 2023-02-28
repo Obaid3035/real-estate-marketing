@@ -88,7 +88,12 @@ const SignUpForm = ({ show, close }) => {
 			centered={true}
 
 		>
-			<Modal.Header className={styles.SignUpFormHeader}>Book your free complimentary trip to Dubai NOW! <ImCross onClick={close}/></Modal.Header>
+			<Modal.Header className={styles.SignUpFormHeader}>
+				<p className={'text-center w-100'}>Book your free complimentary trip to Dubai NOW!<br/>
+					Learn more about the opportunity
+				</p>
+				 <ImCross onClick={close}/>
+			</Modal.Header>
 			<Modal.Body>
 				<Form className={'text-center'} onSubmit={onFormSubmit}>
 					<Form.Control name={'name'} value={form.name} onChange={onChangeHandler} type={'text'} className={'mb-3'} placeholder={'Your Name'} />

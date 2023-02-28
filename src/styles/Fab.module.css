@@ -18,8 +18,8 @@
 
 .fabContainer li {
     border-radius: 50%;
-    background: white;
-    box-shadow: 0 3px 6px #1a264e;
+    background: #10866D;
+    box-shadow: 0 3px 6px #10866D;
     display: grid;
     place-items: center;
     margin: 8px 0;
@@ -30,7 +30,7 @@
 }
 
 .fabButton span {
-    color: #1a264e;
+    color: white;
     width: 30px;
     height: 30px;
     text-align: center;
