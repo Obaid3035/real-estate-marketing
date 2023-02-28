@@ -42,7 +42,7 @@ export default function Home() {
 			<FloatingWhatsApp
 				avatar={'./avatar.png'}
 				phoneNumber={'+14376550227'}
-				accountName={'Arman Aftab'}/>
+				accountName={'Invest in Dubai'}/>
 			<ToastContainer
 				position="top-center"
 				autoClose={5000}
