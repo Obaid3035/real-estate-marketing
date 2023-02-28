@@ -53,6 +53,7 @@ const TopBanner = () => {
 							<div key={videoObj.id}>
 								<div className={styles.OverLay}/>
 								<video
+									webkit-playsinline
 									src={videoObj.src}
 									autoPlay
 									loop
