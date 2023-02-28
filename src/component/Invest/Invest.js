@@ -19,7 +19,7 @@ const Invest = () => {
 
 			<Row className={'justify-content-center m-0'}>
 				<Col md={5} className={'mx-3'}>
-					<Reasons text={'Tax Free Investment:'} icon={<MdOutlineAttachMoney/>}/>
+					<Reasons text={'Tax Free Investment'} icon={<MdOutlineAttachMoney/>}/>
 				</Col>
 				<Col md={5} className={'mx-3'}>
 					<Reasons text={'Easy 10 year Golden Visa'} icon={<AiOutlineHome/>}/>
@@ -31,7 +31,7 @@ const Invest = () => {
 					<Reasons text={'Tropical Weather'} icon={<TiWeatherSunny/>}/>
 				</Col>
 				<Col md={5} className={'mx-3'}>
-					<Reasons text={'Top Safest Tourist Destination '} icon={<AiOutlineSafetyCertificate/>}/>
+					<Reasons text={'Safest Tourist Destination '} icon={<AiOutlineSafetyCertificate/>}/>
 				</Col>
 				<Col md={5} className={'mx-3'}>
 					<Reasons text={'Word-class Infrastructure'} icon={<BsBuilding/>}/>

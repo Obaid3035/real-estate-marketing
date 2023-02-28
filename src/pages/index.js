@@ -13,6 +13,7 @@ import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import SignUpForm from "@/component/SignUpForm/SignUpForm";
 import Fab from "@/component/Fab/Fab";
+import Footer from "@/component/Footer/Footer";
 
 export default function Home() {
 
@@ -59,7 +60,7 @@ export default function Home() {
 			<FloatingWhatsApp
 				avatar={'./avatar.png'}
 				phoneNumber={'+14376550227'}
-				accountName={'Invest in Dubai'}/>
+				accountName={'Sales Consultant'}/>
 			<ToastContainer
 				position="top-center"
 				autoClose={5000}
@@ -81,6 +82,7 @@ export default function Home() {
 			<Reviews/>
 			<FAQ/>
 			<Contact/>
+			<Footer/>
 		</>
 	)
 }
