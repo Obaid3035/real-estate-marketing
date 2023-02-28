@@ -32,7 +32,7 @@ export default function Home() {
 	useEffect(() => {
 		if (localStorage.getItem('Form') !== 'yes' && timer === 7) {
 
-			const timeId = setTimeout(() => setShow(true),5000);
+			const timeId = setTimeout(() => setShow(true),10000);
 			return () => {
 				clearTimeout(timeId)
 				setTimer(15)
@@ -43,7 +43,7 @@ export default function Home() {
 	useEffect(() => {
 		if (localStorage.getItem('Form') !== 'yes' && timer === 15) {
 			console.log('BING2')
-			const timeId = setTimeout(() => setShow(true),10000);
+			const timeId = setTimeout(() => setShow(true),15000);
 			return () => {
 				clearTimeout(timeId)
 				setTimer(0)
