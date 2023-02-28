@@ -26,14 +26,15 @@ export default function Home() {
 
 
 	useEffect(() => {
-		if (localStorage.getItem('Form') === null) {
-			popupBox();
+		if (localStorage.getItem('Form') !== 'yes' ) {
+			const timeId = setTimeout(()=> setShow(true),7000);
+
+			return () => {
+				clearTimeout(timeId)
+			}
 		}
 	}, [show])
 
-	function popupBox(){
-		setTimeout(()=> setShow(true),10000)
-	}
 
 	return (
 		<>

@@ -89,9 +89,10 @@ const SignUpForm = ({ show, close }) => {
 
 		>
 			<Modal.Header className={styles.SignUpFormHeader}>
-				<p className={'text-center w-100'}>Book your free complimentary trip to Dubai NOW!<br/>
-					Learn more about the opportunity
-				</p>
+				<div className={'w-100 text-center '}>
+					<p className={'m-0'}>Book your free complimentary trip to Dubai NOW!</p>
+					<p className={'m-0 mt-2'}>	Learn more about the opportunity</p>
+				</div>
 				 <ImCross onClick={close}/>
 			</Modal.Header>
 			<Modal.Body>
