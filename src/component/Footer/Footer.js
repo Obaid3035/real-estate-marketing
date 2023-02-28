@@ -70,7 +70,7 @@ const Footer = () => {
 			{privacyModal}
 			{termsModal}
 			<hr/>
-			<Row className={'justify-content-center text-center'}>
+			<Row className={'justify-content-center text-center m-0'}>
 				<Col md={3}>
 					<p style={{
 						cursor: 'pointer'
