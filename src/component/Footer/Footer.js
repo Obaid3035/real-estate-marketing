@@ -1,13 +1,17 @@
 import React from 'react';
-import {Modal} from "react-bootstrap";
+import {Col, Modal, Row} from "react-bootstrap";
+import {ImCross} from "react-icons/im";
 const Footer = () => {
 
 	const [privacy, setPrivacy] = React.useState(false);
 	const [terms, setTerms] = React.useState(false);
 	const privacyModal = (
-		<Modal show={privacy} onHide={() => setPrivacy(false)} centered={true} size={'lg'}>
-			<Modal.Header>
+		<Modal show={privacy} centered={true} size={'lg'}>
+			<Modal.Header className={'d-flex justify-content-between align-items-center'}>
 				<h3>Privacy Policy</h3>
+				<ImCross style={{
+					cursor: 'pointer'
+				}} onClick={() => setPrivacy(false)}/>
 			</Modal.Header>
 			<Modal.Body>
 				<p>Thank you for considering our real estate lead generation landing page. Protecting your privacy is very important to us. Please read our privacy policy carefully to understand how we collect, use, and disclose your personal information.</p>
@@ -30,9 +34,12 @@ const Footer = () => {
 	)
 
 	const termsModal = (
-		<Modal show={terms} onHide={() => setTerms(false)} centered={true} size={'lg'}>
-			<Modal.Header>
+		<Modal show={terms} centered={true} size={'lg'}>
+			<Modal.Header className={'d-flex justify-content-between align-items-center'}>
 				<h3>Terms and Condition</h3>
+				<ImCross style={{
+					cursor: 'pointer'
+				}} onClick={() => setTerms(false)}/>
 			</Modal.Header>
 			<Modal.Body>
 				<p>Thank you for considering our real estate lead generation landing page. Please read our terms and conditions carefully before using our website.</p>
@@ -63,14 +70,21 @@ const Footer = () => {
 			{privacyModal}
 			{termsModal}
 			<hr/>
-			<div className={'d-flex align-items-center justify-content-around'}>
-				<p style={{
-					cursor: 'pointer'
-				}} onClick={() => setPrivacy(true)}>Privacy Policy</p>
-				<p style={{
-					cursor: 'pointer'
-				}} onClick={() => setTerms(true)}>Terms and condition</p>
-			</div>
+			<Row className={'justify-content-center text-center'}>
+				<Col md={3}>
+					<p style={{
+						cursor: 'pointer'
+					}} onClick={() => setPrivacy(true)}>Privacy Policy</p>
+				</Col>
+				<Col md={3}>
+					<p style={{
+						cursor: 'pointer'
+					}} onClick={() => setTerms(true)}>Terms and condition</p>
+				</Col>
+				<Col md={6}>
+					2023 All Rights Reserved
+				</Col>
+			</Row>
 		</React.Fragment>
 	);
 };
