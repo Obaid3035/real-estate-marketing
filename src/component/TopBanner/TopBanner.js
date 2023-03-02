@@ -3,11 +3,10 @@ import styles from '../../styles/TopBanner.module.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import SignUpForm from "@/component/SignUpForm/SignUpForm";
+import ReactPlayer from "react-player";
 
 const TopBanner = () => {
-
-
-
+	
 	const videoProperties = [
 		{
 			id: 1,
@@ -55,7 +54,8 @@ const TopBanner = () => {
 								<video
 									webkit-playsinline
 									src={videoObj.src}
-									autoPlay
+									autoPlay={false}
+									controls={false}
 									loop
 									muted
 								/>

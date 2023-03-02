@@ -64,9 +64,9 @@ const FAQ = () => {
 
 	return (
 		<Container className={styles.FAQ}>
-			<h1 className={'text-center'}>FAQ</h1>
+			<h1 className={'text-center mb-4'}>FAQ</h1>
 			<Row className={'mx-0'}>
-				<Col md={12}>
+				<Col md={12} className={'px-0'}>
 					<Accordion defaultActiveKey="0">
 						{
 							faq.map((item) => (
