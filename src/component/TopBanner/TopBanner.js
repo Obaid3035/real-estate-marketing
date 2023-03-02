@@ -54,7 +54,7 @@ const TopBanner = () => {
 								<video
 									webkit-playsinline
 									src={videoObj.src}
-									autoPlay={false}
+									autoPlay={true}
 									controls={false}
 									loop
 									muted
