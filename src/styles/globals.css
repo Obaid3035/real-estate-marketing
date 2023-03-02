@@ -16,8 +16,3 @@ html {
   border: none;
   font-size: 20px;
 }
-
-*::-webkit-media-controls-panel {
-  display: none!important;
-  -webkit-appearance: none;
-}

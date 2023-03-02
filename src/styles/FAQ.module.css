@@ -21,4 +21,13 @@
     .FAQHeading button svg {
         display: none;
     }
+    .FAQ h1 {
+        text-align: start!important;
+    }
+
+    .FAQ h5 {
+        text-align: start!important;
+        padding: 0;
+        color: #000000!important;
+    }
 }
