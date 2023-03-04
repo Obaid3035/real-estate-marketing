@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
 import styles from '../../styles/TopBanner.module.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import {Carousel} from "react-responsive-carousel";
 import SignUpForm from "@/component/SignUpForm/SignUpForm";
-import ReactPlayer from "react-player";
 
 const TopBanner = () => {
-	
+
 	const videoProperties = [
 		{
 			id: 1,
@@ -29,7 +28,6 @@ const TopBanner = () => {
 	]
 
 	const [show, setShow] = useState(false);
-
 
 
 	return (
@@ -60,12 +58,12 @@ const TopBanner = () => {
 									muted
 								/>
 								<div className={styles.Content}>
-									<h1>{ videoObj.content }</h1>
+									<h1>{videoObj.content}</h1>
 									{
 										videoObj.more ? (
 											<React.Fragment>
-												<h1>{ videoObj.content2 }</h1>
-												<h1>{ videoObj.content3 }</h1>
+												<h1>{videoObj.content2}</h1>
+												<h1>{videoObj.content3}</h1>
 											</React.Fragment>
 										) : null
 									}
