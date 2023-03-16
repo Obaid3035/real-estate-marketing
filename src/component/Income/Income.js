@@ -12,7 +12,7 @@ const Income = () => {
 					<h1>Great Opportunity for Passive Income </h1>
 					<div className={styles.List}>
 						<p><span>Starting at Price:</span>  $700,000 CAD</p>
-						<p><span>Payment Plan:</span> 80/20</p>
+						<p><span>Down Payment:</span> 20%</p>
 						<p><span>Expected Rental Income:</span> 8%</p>
 						<p><span>Completion Date:</span> June 2026</p>
 						<p><span>Crypto Finance:</span> Available</p>

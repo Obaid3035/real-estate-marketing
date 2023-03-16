@@ -92,7 +92,8 @@ const SignUpForm = ({ show, close }) => {
 				<div className={'w-100 text-center '}>
 					<p className={'m-0'} style={{
 						color: '#10866d',
-						fontFamily: 'American Typewriter'
+						fontFamily: 'American Typewriter',
+						fontSize: '18px'
 					}}>Book your free complimentary trip to Dubai NOW!</p>
 					<p className={'m-0 mt-2'}>	Learn more about the opportunity</p>
 				</div>
