@@ -8,8 +8,8 @@ export default function App({Component, pageProps}) {
 
 	return (
 		<>
-			<Script strategy={'afterInteractive'} src={'https://www.googletagmanager.com/gtag/js?id=G-G3Z7777F74'}/>
-			<Script id={'google-analytics'} strategy={'afterInteractive'}>
+			<Script strategy={"afterInteractive"} src={"https://www.googletagmanager.com/gtag/js?id=G-G3Z7777F74"}/>
+			<Script id={"google-analytics"} strategy={"afterInteractive"}>
 				{`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
