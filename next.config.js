@@ -11,7 +11,8 @@ const nextConfig = {
     AUTH_URI: process.env.AUTH_URI,
     TOKEN_URI: process.env.TOKEN_URI,
     AUTH_PROVIDER_X509_CERT_URL: process.env.AUTH_PROVIDER_X509_CERT_URL,
-    CLIENT_X509_CERT_URL: process.env.CLIENT_X509_CERT_URL
+    CLIENT_X509_CERT_URL: process.env.CLIENT_X509_CERT_URL,
+    SHEET_ID: process.env.SHEET_ID
 
   },
   webpack: (config, { isServer }) => {
